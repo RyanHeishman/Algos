@@ -47,3 +47,80 @@
 // }
 
 //--------------------------------------------------
+
+// function leap(num){
+//     if (num % 4 === 0 && num % 100 !== 0 || num % 400 === 0) {
+//         console.log(num + ' is a leap year!')
+//     }
+//     else{
+//         console.log(num + ' is not a leap year')
+//     }
+// }
+// leap(1952)
+// console.log(leap)
+
+//--------------------------------------------------
+
+// i = 0
+// while (i < 60000) {
+//     i++;
+//     if(i % 6 === 0){
+//         console.log(i)
+//     }
+// }
+
+//--------------------------------------------------
+
+// i = 0
+// while (i < 100) {
+    
+//     if(i % 10 === 0){
+//         console.log('Coding Dojo')
+//     }
+//     else if(i % 5 === 0){
+//         console.log('Coding')
+//     }
+//     else{
+//         console.log(i)
+//     }
+//     i++;
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 10 === 0) {
+//         console.log("Coding Dojo");
+//     } else if (i % 5 === 0) {
+//         console.log("Coding");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+//--------------------------------------------------
+
+// function wdyk(incoming){
+//     return incoming
+// }
+
+// console.log(wdyk(3))
+
+//--------------------------------------------------
+
+// sum = 0
+
+// for (let i = -300000; i <= 300000; i++) {
+//     if (i % 2 === 1){
+//         sum = sum + i
+//     }
+// }
+// console.log(sum)
+
+//--------------------------------------------------
+
+// i = 2016
+// while (i > 0) {
+//     console.log(i)
+//     i -= 4;
+// }
+
+//--------------------------------------------------
