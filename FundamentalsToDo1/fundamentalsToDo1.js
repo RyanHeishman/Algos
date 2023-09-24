@@ -124,3 +124,64 @@
 // }
 
 //--------------------------------------------------
+
+// function count(lowNum, highNum, mult){
+//     const arr = []
+//     for (let i = lowNum; i <= highNum; i++){
+//         if (i % mult === 0){
+//             arr.push(i)
+//         }
+//     }
+//     return arr.reverse();
+// }
+// console.log(count(2,9,3))
+
+//--------------------------------------------------
+
+// let i = 2;
+// const arr = []
+// do{
+//     i++;
+//     if(i === 9){
+//         continue;
+//     }
+//     if(i % 3 === 0){
+//         arr.push(i);
+//     }
+// }
+// while(i <= 9);
+// console.log(arr)
+
+function finalCount(param1, param2, param3, param4) {
+    
+    let i = param2;
+    const arr = [];
+
+    do{
+        i++;
+        if(i === param4){
+            continue;
+        }
+        if(i % param1 === 0){
+            arr.push(i);
+        }
+    }
+    while(i <= param3);
+    return arr;
+}
+
+console.log(finalCount(3,5,17,9))
+
+function finalCountTwo(param1, param2, param3, param4){
+
+    let i = param2;
+
+    while(i <= param3){
+        if(i % param1 === 0 && i !== param4){
+            console.log(i);
+        }
+        i++;
+    }
+}
+
+finalCountTwo(3, 5, 17, 9)
