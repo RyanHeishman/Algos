@@ -56,19 +56,55 @@
 
 //-------------------------------------------
 
-function tLTV(num1, num2){
-    arr = [];
-    length = num1;
+// function tLTV(num1, num2){
+//     arr = [];
+//     length = num1;
 
-    if (num1 === num2){
-        return 'Jinx!';
-    }
+//     if (num1 === num2){
+//         return 'Jinx!';
+//     }
     
-    for (let i = 0; i < length; i++){
-        arr.push(num2)
-    }
+//     for (let i = 0; i < length; i++){
+//         arr.push(num2)
+//     }
 
-    return arr;
-}
+//     return arr;
+// }
 
-console.log(tLTV(5,4))
+// console.log(tLTV(5,4))
+
+//-------------------------------------------
+
+// function fFV(arr){
+//     if(arr[0] > arr.length){
+//         console.log("Too big!")
+//     }
+//     else if(arr[0] < arr.length){
+//         console.log("Too small!")
+//     }
+//     else{
+//         console.log("Just right!")
+//     }
+// }
+
+// console.log(fFV([1,3,4,5]))
+
+//-------------------------------------------
+
+// function farenheitToCelsius(fDegrees){
+//     celcius = 0;
+//     celcius = ((fDegrees - 32) * 5/9);
+//     return celcius;
+// }
+
+// console.log(farenheitToCelsius(32))
+
+//-------------------------------------------
+
+// function celciusToFarenheit(cDegrees){
+//     farenheit = 0;
+//     farenheit = ((cDegrees * 9/5) + 32);
+//     return farenheit;
+// }
+
+// console.log(celciusToFarenheit(0))
