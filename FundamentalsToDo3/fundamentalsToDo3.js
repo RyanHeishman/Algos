@@ -40,12 +40,30 @@
 
 //-------------------------------------------------
 
-function doubleVision(arr){
-    newArr = []
-    for(let i = 0; i < arr.length; i++){
-        newArr.push(arr[i]*2);
-    }
-    return newArr;
-}
+// function doubleVision(arr){
+//     newArr = []
+//     for(let i = 0; i < arr.length; i++){
+//         newArr.push(arr[i]*2);
+//     }
+//     return newArr;
+// }
 
-console.log(doubleVision([1,2,3]))
+// console.log(doubleVision([1,2,3]))
+
+//-------------------------------------------------
+
+// function countPositives(arr){
+//     let zero = 0
+
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] > 0){
+//             zero++
+//         }
+//     }
+//     arr[arr.length - 1] = zero
+//     return arr;
+// }
+
+// console.log(countPositives([-1,1,1,1]))
+
+//-------------------------------------------------
