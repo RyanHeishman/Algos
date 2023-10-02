@@ -1,0 +1,9 @@
+.mainMain{
+    width: 74%;
+    height: 800px;
+    background-color: #e06666;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
