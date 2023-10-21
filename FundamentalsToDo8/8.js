@@ -86,4 +86,59 @@ const rollOne = () => {
 //     return ('arr: ' + arr + ' low: ' + lowVal + ' high: ' + HighVal + ' sum: ' + sum + ' avg: ' + avg)
 // }
 
-// console.log(playStatistics3(5))
+// console.log(playStatistics3(5))\
+
+// const roll = () => {
+//     return Math.floor(Math.random()*21)
+// }
+
+// const average = (array) => {
+//     let sum = 0;
+//     for(let num of array){
+//         sum += num
+//     }
+//     return (sum/array.length.toFixed(2))
+// }
+
+// const rollTwice = () => {
+//     let results = [];
+//     let prev = null;
+
+//     do{
+//         let current = roll();
+//         results.push(current);
+
+//         if(current === prev){
+//             break;
+//         }
+//         else{
+//             prev = current;
+//         }
+//     }while(true);
+//     return ('Number of rolls: ' + results.length + ' Average: ' + average(results) + ' Min:' + Math.min(...results) + ' Max: ' + Math.max(...results))
+// }
+
+// console.log(rollTwice())
+
+function reset() {
+    var x = 0;
+    var y = 0;
+}
+
+function moveBy(xOffset, yOffset) {
+    var x = x + xOffset;
+    var y = y + yOffset;
+}
+
+function xLocation(){
+    return moveBy(xOffset);
+}
+
+function yLocation(){
+    return moveBy(yOffset);
+}
+
+reset();
+moveBy(1, -2)
+moveBy(3, 1)
+console.log("Claire's location: ", `(${xLocation()}, ${yLocation()})`)
